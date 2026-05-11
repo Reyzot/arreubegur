@@ -2,6 +2,7 @@
    ARREU BEGUR — styles.css
    Palette derived from logo (#C9B49A sand)
    ============================================ */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
   --cream:   #F0E8DC;
@@ -22,7 +23,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Georgia', serif;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
   background: var(--cream);
   color: var(--dark);
   line-height: 1.6;
@@ -58,7 +59,7 @@ nav {
   display: flex; flex-direction: column; line-height: 1;
 }
 .nav-logo-brand {
-  font-family: 'Georgia', serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -166,6 +167,7 @@ nav {
   margin-bottom: 0.75rem;
 }
 .hero-title {
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: clamp(2.4rem, 6vw, 4.5rem);
   font-weight: 400;
   letter-spacing: 0.04em;
@@ -215,6 +217,7 @@ nav {
   margin-bottom: 0.6rem;
 }
 .section-title {
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: clamp(1.8rem, 4vw, 3rem);
   font-weight: 400;
   letter-spacing: 0.02em;
@@ -259,6 +262,7 @@ nav {
   text-transform: uppercase; color: var(--sand);
 }
 .about-title {
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: clamp(1.6rem, 3vw, 2.4rem);
   font-weight: 400; line-height: 1.15;
   color: var(--white);
@@ -384,13 +388,13 @@ nav {
 
 /* ── PAGE HEADER ─────────────────────────── */
 .page-header {
-  padding: 7rem 2rem 4rem;
+  padding: 5rem 2rem 2.5rem;
   text-align: center;
   background: var(--white);
   border-bottom: 1px solid rgba(28,17,8,0.08);
 }
 .page-header .section-desc {
-  margin: 0.8rem auto 0;
+  margin: 0.6rem auto 0;
 }
 
 /* ── CARTA (menu page) ───────────────────── */
@@ -409,6 +413,7 @@ nav {
   border-bottom: 2px solid var(--sand);
 }
 .carta-section-title {
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.4rem; font-weight: 700;
   color: var(--dark);
 }
@@ -434,8 +439,9 @@ nav {
 .carta-item:last-child { border-bottom: none; }
 .carta-item-left { flex: 1; }
 .carta-item-name {
-  font-size: 0.95rem; font-weight: 600;
+  font-size: 0.95rem; font-weight: 500;
   color: var(--dark); margin-bottom: 0.15rem;
+  font-family: 'Inter', sans-serif;
 }
 .carta-item-desc {
   font-size: 0.8rem; color: var(--stone);
@@ -677,7 +683,7 @@ footer {
 
   .gallery-thumb { flex: 0 0 220px; height: 160px; }
 
-  .page-header { padding: 6rem 1.5rem 2.5rem; }
+  .page-header { padding: 4.5rem 1.5rem 2rem; }
 
   .carta-layout { padding: 2rem 1.25rem 4rem; }
   .carta-section-header { flex-direction: column; gap: 0.4rem; align-items: flex-start; }
