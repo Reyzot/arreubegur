@@ -621,59 +621,107 @@ footer {
 /* ── MOBILE ──────────────────────────────── */
 @media (max-width: 768px) {
 
+  /* Row 1: logo + lang switcher en la misma fila */
   nav {
     padding: 0;
+    gap: 0;
     flex-wrap: wrap;
     height: auto;
   }
   .nav-logo {
     order: 1;
-    padding: 0.65rem 1.1rem;
-    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    gap: 0.45rem;
+    flex-shrink: 0;
   }
   .nav-logo-img { height: 32px; width: 32px; }
-  .nav-logo-brand { font-size: 1rem; }
+  .nav-logo-brand { font-size: 0.95rem; }
+  /* Ocultar subtítulo en móvil para que logo y banderas quepan en una fila */
+  .nav-logo-sub { display: none; }
+
   .lang-switcher {
     order: 2;
     margin-left: auto;
-    padding: 0.65rem 0.9rem;
+    padding: 0.6rem 0.8rem;
+    flex-shrink: 0;
+    gap: 2px;
+    align-items: center;
+    display: flex;
   }
-  .hamburger { display: none !important; }
+  .lang-btn { font-size: 1rem; padding: 3px 4px; }
+
+  .hamburger { display: none; }
+
+  /* Row 2: nav links — fondo oscuro, activo destacado con subrayado arena */
   .nav-links {
     order: 3;
     position: static !important;
     width: 100% !important;
     transform: none !important;
     flex-direction: row !important;
-    background: var(--white) !important;
-    border-top: 1px solid rgba(28,17,8,0.08);
+    display: flex !important;
+    background: var(--dark) !important;
+    border-top: none;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     padding: 0 !important;
+    gap: 0;
+    margin: 0;
   }
   .nav-links::-webkit-scrollbar { display: none; }
-  .nav-links li { flex: 1 1 0; min-width: 60px; }
-  .nav-links a {
-    font-size: 0.52rem !important;
-    padding: 0.6rem 0.3rem !important;
-    text-align: center;
-    white-space: nowrap;
-    opacity: 0.65;
-  }
-  .nav-links a.active { opacity: 1; }
-  .nav-links a.nav-cta {
-    margin-left: 0;
-    border-radius: 0;
-    font-size: 0.52rem !important;
-  }
+  .nav-links li { flex: 0 0 auto; }
 
-  .hero { padding-top: 110px; height: 90svh; }
+  .nav-links a {
+    display: block;
+    font-size: 0.6rem !important;
+    padding: 0.8rem 0.9rem !important;
+    color: rgba(253,250,245,0.45) !important;
+    opacity: 1 !important;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    letter-spacing: 0.07em;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: rgba(253,250,245,0.8) !important; }
+  .nav-links a.active {
+    color: var(--white) !important;
+    font-weight: 600;
+  }
+  .nav-links a.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0.55rem; right: 0.55rem;
+    height: 2px;
+    background: var(--sand);
+    border-radius: 1px;
+  }
+  .nav-links a.nav-cta {
+    margin-left: 0 !important;
+    border-radius: 0 !important;
+    background: rgba(201,180,154,0.18) !important;
+    color: var(--sand) !important;
+    opacity: 1 !important;
+    border-left: 1px solid rgba(201,180,154,0.2);
+  }
+  .nav-links a.nav-cta:hover {
+    background: rgba(201,180,154,0.32) !important;
+    color: var(--white) !important;
+  }
+  .nav-links a.nav-cta::after { display: none; }
+
+  /* Hero: ajustado a 2 filas de nav (~88px) */
+  .hero { padding-top: 88px; height: 92svh; min-height: 520px; }
   .hero-logo-img { width: 110px; height: 110px; }
   .hero-btns { gap: 0.7rem; }
-  .btn { padding: 0.7rem 1.4rem; font-size: 0.7rem; }
+  .btn { padding: 0.75rem 1.5rem; font-size: 0.7rem; }
 
-  .about { grid-template-columns: 1fr; }
+  /* Separación marcada entre hero y sección about */
+  .about {
+    grid-template-columns: 1fr;
+    border-top: 4px solid var(--sand);
+  }
   .about-image { height: 260px; }
   .about-image img { transform: none !important; }
   .about-text { padding: 2.5rem 1.5rem; }
@@ -683,7 +731,8 @@ footer {
 
   .gallery-thumb { flex: 0 0 220px; height: 160px; }
 
-  .page-header { padding: 4.5rem 1.5rem 2rem; }
+  /* Page header: padding-top suficiente para 2 filas de nav */
+  .page-header { padding: 5.5rem 1.5rem 2rem; }
 
   .carta-layout { padding: 2rem 1.25rem 4rem; }
   .carta-section-header { flex-direction: column; gap: 0.4rem; align-items: flex-start; }
