@@ -41,7 +41,7 @@ const translations = {
     gallery_btn: "Ver toda la galería",
 
     home_cta_title: "Ven a visitarnos",
-    home_cta_desc: "Carrer de la Concepció Pi Tató, 3 · 17255 Begur, Girona<br>De vie. a mié. · 18:00 – 23:00 · Cerrado los jueves",
+    home_cta_desc: "Carrer de la Concepció Pi Tató, 3 · 17255 Begur, Girona<br>Todos los días menos el jueves · 18:00 – 23:00",
     home_cta_btn: "Cómo llegar",
 
     galeria_tag: "Imágenes",
@@ -58,7 +58,7 @@ const translations = {
     contacto_label_phone: "Teléfono",
     contacto_label_hours: "Horario",
     contacto_label_howto: "Cómo llegar",
-    contacto_hours_value: "De vie. a mié.<br>18:00 – 23:00 h<br>Cerrado los jueves",
+    contacto_hours_value: "Todos los días menos el jueves<br>18:00 – 23:00 h",
     contacto_howto_desc: "Arreu está en el centro de Begur, a pie de calle. Fácil de encontrar, con aparcamiento en los alrededores.",
     contacto_strip1_title: "Centro de Begur",
     contacto_strip1_desc: "En el corazón del pueblo. Todo a pie, fácil de llegar.",
@@ -140,7 +140,7 @@ const translations = {
     footer_desc: "Street Food & Drinks en el centro de Begur. Cocina fresca, hamburguesería y los mejores drinks del Costa Brava.",
     footer_nav_heading: "Navegación",
     footer_contact_heading: "Contacto",
-    footer_hours: "De vie. a mié. · 18:00 – 23:00 · Cerrado los jueves",
+    footer_hours: "Todos los días menos el jueves · 18:00 – 23:00",
   },
 
   ca: {
@@ -185,7 +185,7 @@ const translations = {
     gallery_btn: "Veure tota la galeria",
 
     home_cta_title: "Vine a visitar-nos",
-    home_cta_desc: "Carrer de la Concepció Pi Tató, 3 · 17255 Begur, Girona<br>De div. a dim. · 18:00 – 23:00 · Tancat els dijous",
+    home_cta_desc: "Carrer de la Concepció Pi Tató, 3 · 17255 Begur, Girona<br>Tots els dies menys el dijous · 18:00 – 23:00",
     home_cta_btn: "Com arribar",
 
     galeria_tag: "Imatges",
@@ -202,7 +202,7 @@ const translations = {
     contacto_label_phone: "Telèfon",
     contacto_label_hours: "Horari",
     contacto_label_howto: "Com arribar",
-    contacto_hours_value: "De div. a dim.<br>18:00 – 23:00 h<br>Tancat els dijous",
+    contacto_hours_value: "Tots els dies menys el dijous<br>18:00 – 23:00 h",
     contacto_howto_desc: "Arreu és al centre de Begur, a peu de carrer. Fàcil de trobar, amb aparcament als voltants.",
     contacto_strip1_title: "Centre de Begur",
     contacto_strip1_desc: "Al cor del poble. Tot a peu, fàcil d'arribar.",
@@ -284,7 +284,7 @@ const translations = {
     footer_desc: "Street Food & Drinks al centre de Begur. Cuina fresca, hamburgueses i els millors drinks de la Costa Brava.",
     footer_nav_heading: "Navegació",
     footer_contact_heading: "Contacte",
-    footer_hours: "De div. a dim. · 18:00 – 23:00 · Tancat els dijous",
+    footer_hours: "Tots els dies menys el dijous · 18:00 – 23:00",
   },
 
   en: {
@@ -329,7 +329,7 @@ const translations = {
     gallery_btn: "View full gallery",
 
     home_cta_title: "Come and visit us",
-    home_cta_desc: "Carrer de la Concepció Pi Tató, 3 · 17255 Begur, Girona<br>Fri. to Wed. · 18:00 – 23:00 · Closed on Thursdays",
+    home_cta_desc: "Carrer de la Concepció Pi Tató, 3 · 17255 Begur, Girona<br>Every day except Thursday · 18:00 – 23:00",
     home_cta_btn: "How to get here",
 
     galeria_tag: "Images",
@@ -346,7 +346,7 @@ const translations = {
     contacto_label_phone: "Phone",
     contacto_label_hours: "Opening Hours",
     contacto_label_howto: "How to get here",
-    contacto_hours_value: "Fri. to Wed.<br>18:00 – 23:00 h<br>Closed on Thursdays",
+    contacto_hours_value: "Every day except Thursday<br>18:00 – 23:00 h",
     contacto_howto_desc: "Arreu is in the centre of Begur, right on the street. Easy to find, with parking nearby.",
     contacto_strip1_title: "Begur Town Centre",
     contacto_strip1_desc: "In the heart of the village. Everything within walking distance.",
@@ -428,7 +428,7 @@ const translations = {
     footer_desc: "Street Food & Drinks in the centre of Begur. Fresh cuisine, burgers and the best drinks on the Costa Brava.",
     footer_nav_heading: "Navigation",
     footer_contact_heading: "Contact",
-    footer_hours: "Fri. to Wed. · 18:00 – 23:00 · Closed on Thursdays",
+    footer_hours: "Every day except Thursday · 18:00 – 23:00",
   },
 
   fr: {
@@ -473,7 +473,7 @@ const translations = {
     gallery_btn: "Voir toute la galerie",
 
     home_cta_title: "Venez nous rendre visite",
-    home_cta_desc: "Carrer de la Concepció Pi Tató, 3 · 17255 Begur, Girona<br>Ven. à mer. · 18:00 – 23:00 · Fermé le jeudi",
+    home_cta_desc: "Carrer de la Concepció Pi Tató, 3 · 17255 Begur, Girona<br>Tous les jours sauf le jeudi · 18:00 – 23:00",
     home_cta_btn: "Comment venir",
 
     galeria_tag: "Images",
@@ -490,7 +490,7 @@ const translations = {
     contacto_label_phone: "Téléphone",
     contacto_label_hours: "Horaires",
     contacto_label_howto: "Comment venir",
-    contacto_hours_value: "Ven. à mer.<br>18:00 – 23:00 h<br>Fermé le jeudi",
+    contacto_hours_value: "Tous les jours sauf le jeudi<br>18:00 – 23:00 h",
     contacto_howto_desc: "Arreu est au centre de Begur, en pleine rue. Facile à trouver, avec un parking à proximité.",
     contacto_strip1_title: "Centre de Begur",
     contacto_strip1_desc: "Au coeur du village. Tout à pied, facile d'accès.",
@@ -572,6 +572,6 @@ const translations = {
     footer_desc: "Street Food & Drinks au centre de Begur. Cuisine fraîche, burgers et les meilleurs drinks de la Costa Brava.",
     footer_nav_heading: "Navigation",
     footer_contact_heading: "Contact",
-    footer_hours: "Ven. à mer. · 18:00 – 23:00 · Fermé le jeudi",
+    footer_hours: "Tous les jours sauf le jeudi · 18:00 – 23:00",
   }
 };
